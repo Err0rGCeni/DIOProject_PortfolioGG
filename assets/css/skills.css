@@ -17,6 +17,7 @@
 
 .skills .tools ul img {
     max-width: 100px;
+    aspect-ratio: 1/1;
 }
 
 .skills .personal ul {
