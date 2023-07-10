@@ -25,6 +25,6 @@
     height: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('/assets/img/icons/checked.svg');
+    background-image: url('../../assets/img/icons/checked.svg');
     margin-right: .5rem;
 }

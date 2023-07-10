@@ -31,7 +31,7 @@
     height: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('/assets/img/icons/github.svg');
+    background-image: url('../../assets/img/icons/github.svg');
     margin-right: .125rem;
 }
 
@@ -42,6 +42,6 @@
     height: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('/assets/img/icons/bitbucket.svg');
+    background-image: url('../../assets/img/icons/bitbucket.svg');
     margin-right: .125rem;
 }
