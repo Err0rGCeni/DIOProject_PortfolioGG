@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="assets/css/global.css">
-    <link rel="stylesheet" href="/assets/css/header.css">
-    <link rel="stylesheet" href="/assets/css/accordion.css">
-    <link rel="stylesheet" href="/assets/css/languages.css">
-    <link rel="stylesheet" href="/assets/css/portfolio.css">
-    <link rel="stylesheet" href="/assets/css/experience.css">
-    <link rel="stylesheet" href="/assets/css/skills.css">
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/accordion.css">
+    <link rel="stylesheet" href="./assets/css/languages.css">
+    <link rel="stylesheet" href="./assets/css/portfolio.css">
+    <link rel="stylesheet" href="./assets/css/experience.css">
+    <link rel="stylesheet" href="./assets/css/skills.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
 </head>
 
 <body>
@@ -33,7 +34,7 @@
                 </p>
             </div>
         </header>
-        
+
         <section class="accordion">
             <button class="trigger" type="button">
                 <h2 class="title">Skills</h2>
@@ -61,10 +62,8 @@
                 <h2 class="title">Idiomas</h2>
             </button>
             <div class="content">
-                <ul class="languages">
-                    <li>Português</li>
-                    <li>Inglês</li>
-                    <li>Canaque</li>
+                <ul class="languages" id="languages">
+                    Carregando...
                 </ul>
             </div>
         </section>
@@ -74,21 +73,8 @@
                 <h2 class="title">Portfólio</h2>
             </button>
             <div class="content">
-                <ul class="portfolio">
-                    <li>
-                        <h3 class="title github">Desenvolvendo um algoritmo para gerar respostas triviais a perguntas
-                            absurdas</h3>
-                        <a href="#">www.trivialqnaabsurd.com</a>
-                    </li>
-                    <li>
-                        <h3 class="title bitbucket">Criando um sistema para sabotar a comunicação entre máquinas e pets
-                        </h3>
-                        <a href="#">www.notpetfriendlymachine.com</a>
-                    </li>
-                    <li>
-                        <h3 class="title github">Aplicação para criar jogos de lógica e enigmas sem solução</h3>
-                        <a href="#">www.foreverloopingpuzzle.com</a>
-                    </li>
+                <ul class="portfolio" id="portfolio">
+                    Carregando...
                 </ul>
             </div>
         </section>
@@ -98,37 +84,22 @@
                 <h2 class="title">Experiência</h2>
             </button>
             <div class="content">
-                <ul class="experience">
-                    <li>
-                        <h3 class="title">Desenvolvedor de Desinteligência Natural / Nonsense Inc.</h3>
-                        <p class="period">2021 - atual</p>
-                        <p>Responsável por criar e manter sistemas de desinteligência natural que geram conteúdo sem
-                            sentido, humorístico ou provocativo para diversos clientes e plataformas. Utiliza linguagens
-                            de programação como Python, Java e C#, além de frameworks como TensorFlow, PyTorch e GPT-3.
-                        </p>
-                    </li>
-                    <li>
-                        <h3 class="title">Analista de Desinteligência Cognitiva na Dumbify Ltda.</h3>
-                        <p class="period">2018 - 2021</p>
-                        <p>Atuou na análise e avaliação de algoritmos de desinteligência artificial que reduzem a
-                            qualidade e a coerência de textos, imagens, áudios e vídeos. Utilizou ferramentas como
-                            Scikit-learn, OpenCV, NLTK e BERT.</p>
-                    </li>
-                    <li>
-                        <h3 class="title">Estagiário de Desinteligência Cognitiva na Foolish Labs</h3>
-                        <p class="period">2016 - 2018</p>
-                        <p>Participou de projetos de pesquisa e desenvolvimento de técnicas de desinteligência cognitiva
-                            que afetam o raciocínio lógico, a memória, a atenção e a criatividade dos usuários. Utilizou
-                            métodos como ilusões ópticas, paradoxos, falácias e jogos mentais.</p>
-                    </li>
+                <ul class="experience" id="experience">
+                    Carregando...
                 </ul>
             </div>
         </section>
+
+        <footer>
+            <a href="https://www.dio.me/" target="_blank">
+                <img src="assets/img/DIO.svg" />
+            </a>
+        </footer>
     </main>
 
-    <script src="assets/js/accordion.js"></script>
-    <script src="assets/js/api.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="./assets/js/accordion.js"></script>
+    <script src="./assets/js/api.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>
