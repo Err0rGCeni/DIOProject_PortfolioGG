@@ -1,0 +1,75 @@
+{
+    "name": "Gnaeus Gnomicus",
+    "photo": "",
+    "job": "Dev no Nonsense Inc.",
+    "location": "Novo Caledônia - RA",
+    "phone": "(77) 97856-1234",
+    "email": "gnaeus.gnomicus@fuzzyon.com",
+    "skills": {
+        "hardSkills": [
+            {
+                "name": "Java",
+                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+            },
+            {
+                "name": "Python",
+                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+            },
+            {
+                "name": "CSharp",
+                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+            },
+            {
+                "name": "DotNet",
+                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+            }
+        ],
+        "softSkills": [
+            "Colaboração",
+            "Criatividade",
+            "Curiosidade",
+            "Flexibilidade",
+            "Persistência"
+        ]
+    },
+    "languages": [
+        "Canaque (fluente)",
+        "Português (intermediário)",
+        "Inglês (intermediário)",
+        "Espanhol (iniciante)"
+    ],
+    "portfolio": [
+        {
+            "name": "Desenvolvendo um algoritmo para gerar respostas triviais a perguntas absurdas",
+            "url": "www.trivialqnaabsurd.com",
+            "github": true
+        },
+        {
+            "name": "Criando um sistema para sabotar a comunicação entre máquinas e pets",
+            "url": "www.notpetfriendlymachine.com",
+            "github": false
+        },
+        {
+            "name": "Aplicação para criar jogos de lógica e enigmas sem solução",
+            "url": "www.foreverloopingpuzzle.com",
+            "github": true
+        }
+    ],
+    "professionalExperience": [
+        {
+            "name": "Desenvolvedor de Desinteligência Natural / Nonsense Inc.",
+            "period": "2021 - atual",
+            "description": "Responsável por criar e manter sistemas de desinteligência natural que geram conteúdo sem sentido, humorístico ou provocativo para diversos clientes e plataformas. Utiliza linguagens de programação como Python, Java e C#, além de frameworks como TensorFlow, PyTorch e GPT-3."
+        },
+        {
+            "name": "Analista de Desinteligência Cognitiva na Dumbify Ltda.",
+            "period": "2018 - 2021",
+            "description": "Atuou na análise e avaliação de algoritmos de desinteligência artificial que reduzem a qualidade e a coerência de textos, imagens, áudios e vídeos. Utilizou ferramentas como Scikit-learn, OpenCV, NLTK e BERT."
+        },
+        {
+            "name": "Estagiário de Desinteligência Cognitiva na Foolish Labs",
+            "period": "2016 - 2021",
+            "description": "Participou de projetos de pesquisa e desenvolvimento de técnicas de desinteligência cognitiva que afetam o raciocínio lógico, a memória, a atenção e a criatividade dos usuários. Utilizou métodos como ilusões ópticas, paradoxos, falácias e jogos mentais."
+        }
+    ]
+}

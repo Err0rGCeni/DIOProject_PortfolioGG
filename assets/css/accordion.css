@@ -1,0 +1,74 @@
+.accordion {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem 0;
+    background-color: transparent;
+    border: 1px solid silver;
+    border-radius: 1rem;
+    animation: accordion-off 1s ease 0s 1 normal forwards;
+    transition: all 1s;
+}
+
+.accordion:hover {
+    background-color: #55569E;
+    border: 1px solid #55569E;
+    transition: all 0.5s;
+}
+
+.accordion .trigger {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+}
+
+.accordion .trigger:hover {
+    cursor: pointer;
+}
+
+.accordion .trigger h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.accordion .trigger::after {
+    content: "";
+    display: inline-block;
+    width: 1.5rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/assets/img/icons/arrow.svg');
+    transition: all .25s;
+}
+
+.accordion.open {
+    background-color: #55569E;
+    border: 1px solid #55569E;
+}
+
+.accordion.open .trigger::after {
+    transform: rotate(180deg);
+}
+
+.accordion .content {
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+}
+
+.accordion.open .content {
+    display: inline-block;
+    height: auto;
+    padding: 0 1rem 2rem 1rem;
+    opacity: 1;
+}
